@@ -1,4 +1,4 @@
-__简体中文__ | [English](https://github.com/ChensingML/XFFNews/blob/main/README_en.md)
+__简体中文__ | [English](https://github.com/ChensingML/XFFNews/blob/master/README_en.md)
 
 
 # XFFNews
