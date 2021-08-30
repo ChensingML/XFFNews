@@ -71,7 +71,7 @@ IDR_MAINFRAME           ICON                    "res\\XFF.ico"
 // Dialog
 //
 
-IDD_XFFNEWS_DIALOG DIALOGEX 0, 0, 187, 133
+IDD_XFFNEWS_DIALOG DIALOGEX 0, 0, 187, 145
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW
 CAPTION "XFFNews"
@@ -81,6 +81,7 @@ BEGIN
     LTEXT           "",IDC_STATIC_ADMIN,6,108,174,8
     PUSHBUTTON      "开始",IDC_CLEAN,6,6,72,24
     LTEXT           "",IDC_WOW,6,120,174,8
+    LTEXT           "https://github.com/ChensingML/XFFNews",IDC_STATIC,6,132,174,11,0,WS_EX_STATICEDGE
 END
 
 
@@ -90,8 +91,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -106,14 +107,14 @@ BEGIN
     BEGIN
         BLOCK "080403a8"
         BEGIN
-            VALUE "CompanyName", "TODO: <公司名>"
-            VALUE "FileDescription", "TODO: <文件说明>"
-            VALUE "FileVersion", "1.0.0.1"
+            VALUE "CompanyName", "ChenZH"
+            VALUE "FileDescription", "干掉FF新推荐！"
+            VALUE "FileVersion", "1.0.0.2"
             VALUE "InternalName", "XFFNews.exe"
-            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "LegalCopyright", "? ChenZH 保留所有权利"
             VALUE "OriginalFilename", "XFFNews.exe"
-            VALUE "ProductName", "TODO: <产品名>"
-            VALUE "ProductVersion", "1.0.0.1"
+            VALUE "ProductName", "XFFNew ~ 干掉FF新推荐！"
+            VALUE "ProductVersion", "1.0.0.2"
         END
     END
     BLOCK "VarFileInfo"
@@ -136,7 +137,7 @@ BEGIN
         LEFTMARGIN, 7
         RIGHTMARGIN, 180
         TOPMARGIN, 7
-        BOTTOMMARGIN, 126
+        BOTTOMMARGIN, 138
     END
 END
 #endif    // APSTUDIO_INVOKED
