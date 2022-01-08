@@ -19,6 +19,6 @@ __简体中文__ | [English](https://github.com/ChensingML/XFFNews/blob/master/R
 首先灭活FlashHelperService.exe，其次删除可疑注册表键值，最后删除FlashHelperService.exe
 
 ## 使用注意事项
-1. 最好使用管理员权限打开软件，否则可能__无法__更改注册表__及__删除FlashHelperService.exe
+1. 最好使用管理员权限打开软件，否则可能 __无法__ 更改注册表 __及__ 删除FlashHelperService.exe
 2. 使用前先关闭各种还原软件（例如冰点）
 
